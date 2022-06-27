@@ -42,10 +42,18 @@
     <Compile Include="BasicProject\settings.py" />
     <Compile Include="BasicProject\urls.py" />
     <Compile Include="BasicProject\wsgi.py" />
+    <Compile Include="Soma\admin.py" />
+    <Compile Include="Soma\apps.py" />
+    <Compile Include="Soma\migrations\__init__.py" />
+    <Compile Include="Soma\models.py" />
+    <Compile Include="Soma\tests.py" />
+    <Compile Include="Soma\views.py" />
+    <Compile Include="Soma\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="HelloDjangoApp\templates\HelloDjangoApp\index.html" />
     <Content Include="requirements.txt" />
+    <Content Include="Soma\templates\Soma\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BasicProject\" />
@@ -53,6 +61,10 @@
     <Folder Include="HelloDjangoApp\migrations\" />
     <Folder Include="HelloDjangoApp\templates\" />
     <Folder Include="HelloDjangoApp\templates\HelloDjangoApp\" />
+    <Folder Include="Soma\" />
+    <Folder Include="Soma\migrations\" />
+    <Folder Include="Soma\templates\" />
+    <Folder Include="Soma\templates\Soma\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
