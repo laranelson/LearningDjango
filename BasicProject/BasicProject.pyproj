@@ -51,6 +51,9 @@
     <Compile Include="Soma\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HelloDjangoApp\templates\HelloDjangoApp\about.html" />
+    <Content Include="HelloDjangoApp\templates\HelloDjangoApp\layout.html" />
+    <Content Include="HelloDjangoApp\static\site.css" />
     <Content Include="HelloDjangoApp\templates\HelloDjangoApp\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="Soma\templates\Soma\index.html" />
@@ -59,6 +62,7 @@
     <Folder Include="BasicProject\" />
     <Folder Include="HelloDjangoApp\" />
     <Folder Include="HelloDjangoApp\migrations\" />
+    <Folder Include="HelloDjangoApp\static\" />
     <Folder Include="HelloDjangoApp\templates\" />
     <Folder Include="HelloDjangoApp\templates\HelloDjangoApp\" />
     <Folder Include="Soma\" />

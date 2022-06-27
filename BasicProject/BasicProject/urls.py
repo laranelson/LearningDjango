@@ -5,6 +5,6 @@ import Soma.views
 urlpatterns = [
     url(r'^$', HelloDjangoApp.views.index, name='index'),
     url(r'^home$', HelloDjangoApp.views.index, name='home'),
-    url(r'^soma$', Soma.views.soma, name='soma'),
+    url(r'^about$', HelloDjangoApp.views.about, name='about'),
 
 ]
