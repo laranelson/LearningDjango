@@ -34,12 +34,16 @@ def contact(request):
 def about(request):
     """Renders the about page."""
     assert isinstance(request, HttpRequest)
+    now = datetime.now()
     return render(
         request,
         'app/about.html',
         {
             'title':'Sobre',
             'message':'A página de descrição do seu aplicativo',
-            'year':datetime.now().year,
+            'date':now.strftime("%A, %d %B, %Y at %X"),
         }
     )
+
+
+ 
